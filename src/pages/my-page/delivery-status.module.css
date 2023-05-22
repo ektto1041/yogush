@@ -1,0 +1,25 @@
+.container {
+  width: 100%;
+  background-color: #eeeeee;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.content {
+  width: 100%;
+  background-color: white;
+}
+
+.title {
+  height: 30px;
+  display: flex;
+  align-items: flex-end;
+  text-indent: 20px;
+  font-size: 18px;
+}
+
+.status {
+  display: flex;
+  height: 60px;
+  margin-top: 10px;
+}

@@ -1,0 +1,24 @@
+.container {
+  width: 40px;
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  user-select: none;
+  color: var(--main-color);
+}
+
+.icon {
+  width: 30px;
+  height: 40px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.name {
+  height: 10px;
+  line-height: 10px;
+  font-size: 10px;
+  text-align: center;
+  overflow: hidden;
+  color: #111111;
+}

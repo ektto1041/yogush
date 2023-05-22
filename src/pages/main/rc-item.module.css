@@ -1,0 +1,45 @@
+.container {
+  width: 100%;
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+.img {
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  overflow-y: hidden;
+}
+
+.priceBox {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.sale {
+  height: 20px;
+  line-height: 20px;
+  font-size: 18px;
+  color: orange;
+  font-weight: bold;
+  overflow-y: hidden;
+}
+
+.price {
+  height: 20px;
+  margin-left: 10px;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.name {
+  width: 80%;
+  padding-left: 20px;
+  padding-right: 20px;
+}

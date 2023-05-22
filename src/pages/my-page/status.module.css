@@ -1,0 +1,23 @@
+.container {
+  flex-grow: 1;
+  height: 100%;
+}
+
+.icon {
+  margin: 0 auto;
+  width: 30px;
+  height: 50%;
+  color: #bbbbbb;
+  overflow: hidden;
+}
+
+.name {
+  height: 50%;
+  color: #bbbbbb;
+  text-align: center;
+  font-size: 14px;
+}
+
+.active {
+  color: var(--main-color) !important;
+}

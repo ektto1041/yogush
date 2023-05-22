@@ -1,0 +1,10 @@
+* {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-color: #54B435;
+  --sub-color: #379237;
+}
