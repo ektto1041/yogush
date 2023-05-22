@@ -1,11 +1,13 @@
 
 import styles from './main.module.css';
-import Menu from './main/menu';
-import Banner from './main/banner';
-import SubMenu from './main/sub-menu';
-import Recommendation from './main/recommendation';
+import Menu from '../screens/main/menu';
+import Banner from '../screens/main/banner';
+import SubMenu from '../screens/main/sub-menu';
+import Recommendation from '../screens/main/recommendation';
 import CardModal from '@/components/card_modal';
-import Header from './main/header';
+import Header from '../screens/main/header';
+
+export async function getServerSideProps() { return { props: {}} }
 
 export default function Main() {
   return (

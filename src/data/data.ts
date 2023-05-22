@@ -1,4 +1,5 @@
-import { ProxyItemType } from '@/pages/my-page/proxy/proxy-item';
+
+import { ProxyItemType } from '@/screens/main/my-page/proxy/proxy-item';
 import { mdiClockOutline } from '@mdi/js';
 import { mdiAirplane } from '@mdi/js';
 import { mdiTicketPercentOutline } from '@mdi/js';

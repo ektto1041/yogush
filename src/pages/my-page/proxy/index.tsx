@@ -1,9 +1,10 @@
 import CardModal from '@/components/card_modal';
-import Content from './content';
 import styles from './proxy.module.css';
 import { useState } from 'react';
-import Header from './header';
+import Header from '@/screens/main/my-page/proxy/header';
+import Content from '@/screens/main/my-page/proxy/content';
 
+export async function getServerSideProps() { return { props: {}} }
 export default function Proxy() {
   const [isCardModal, setCardModal] = useState<boolean>(false);
 
