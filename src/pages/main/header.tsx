@@ -4,7 +4,7 @@ import { mdiBellOutline } from '@mdi/js';
 import { mdiCartOutline } from '@mdi/js';
 import styles from './header.module.css'
 
-export function Header() {
+export default function Header() {
   return (
     <div className={styles.container}>
       <div className={styles.logoBox}>

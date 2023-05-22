@@ -1,7 +1,7 @@
 import ButtonBox from './button-box';
 import DeliveryStatus from './delivery-status';
 import Greeting from './greeting';
-import { Header } from './header';
+import Header from './header';
 import MainButtonBox from './main-button-box';
 import styles from './my-page.module.css';
 
