@@ -53,8 +53,8 @@ export const subMenus: SubMeunItemType[][] = [
 ];
 
 export const rcItems: rcItemType[] = [
-  {img: '/rc_downy.jpeg', name: '[사은품] 다우니 섬유유연제 엑스퍼트 실내 건조 1L 6개 @@@@@@', price: '39,120', sale: 20},
-  {img: '/rc_downy.jpeg', name: '[사은품] 다우니 섬유유연제 엑스퍼트 실내 건조 1L 6개 @@@@@@', price: '39,120', sale: 20},
+  {img: '/rc_downy.jpeg', name: '[사은품] 다우니 섬유유연제 엑스퍼트 실내 건조 1L 6개', price: '39,120', sale: 20},
+  {img: '/rc_soup.jpg', name: '[히트상품] SOUP 외 40%즉할+선착순15%쿠폰, 여름 완벽준비, 신상추가입고 티/블라우스/자켓/원피스 외 640종', price: '9,240', sale: 40},
 ];
 
 export const myPageMainButtons: MyPageMainButtonType[] = [

@@ -19,7 +19,9 @@ export default function Header({
   return (
     <div className={styles.container}>
       <div className={styles.logoBox}>
-        <div className={styles.logo} />
+        <div className={styles.logo}>
+          <img src='/logo.png' alt='' />
+        </div>
       </div>
       <input className={styles.search} placeholder='검색어를 입력해 주세요.' />
       <div className={styles.buttonBox} >

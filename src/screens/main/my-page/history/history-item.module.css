@@ -63,7 +63,7 @@
 .buttonBox button {
   width: 30%;
   padding: 3px;
-  border: 2px solid var(--main-color);
+  border: 1.5px solid var(--main-color);
   background-color: white;
   color: var(--main-color);
 }
