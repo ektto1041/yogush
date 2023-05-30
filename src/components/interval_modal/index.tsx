@@ -22,7 +22,7 @@ export default function IntervalModal({
         <div className={styles.contentBox} >
           <div className={styles.content} >
             {[1,2,3,4].map(i => (
-              <div className={`${styles.interval}${i === interval ? ' ' + styles.selected : ''}`} onClick={() => setInterval(i)} >
+              <div key={i} className={`${styles.interval}${i === interval ? ' ' + styles.selected : ''}`} onClick={() => setInterval(i)} >
                 {i}달에 한 번
               </div>
             ))}
