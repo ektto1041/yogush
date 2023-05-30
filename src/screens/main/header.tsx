@@ -3,8 +3,19 @@ import { mdiAccountBox } from '@mdi/js';
 import { mdiBellOutline } from '@mdi/js';
 import { mdiCartOutline } from '@mdi/js';
 import styles from './header.module.css'
+import { Dispatch, SetStateAction } from 'react';
 
-export default function Header() {
+type headerProps = {
+  setAlarm: Dispatch<SetStateAction<boolean>>;
+};
+
+export default function Header({
+  setAlarm
+}: headerProps) {
+  const onClickCartButton = () => {
+    setTimeout(() => setAlarm(true), 3000);
+  }
+
   return (
     <div className={styles.container}>
       <div className={styles.logoBox}>
@@ -15,7 +26,7 @@ export default function Header() {
         <div className={styles.button} >
           <Icon path={mdiBellOutline} size='100%' />
         </div>
-        <div className={styles.button} >
+        <div className={styles.button} onClick={onClickCartButton} >
           <Icon path={mdiCartOutline} size='100%' />
         </div>
       </div>

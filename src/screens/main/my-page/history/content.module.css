@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #eeeeee;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.content {
+  width: 100%;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.title {
+  height: 30px;
+  display: flex;
+  align-items: flex-end;
+  text-indent: 20px;
+  font-size: 18px;
+}

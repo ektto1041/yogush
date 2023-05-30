@@ -1,4 +1,5 @@
 
+import { HistoryItemType } from '@/screens/main/my-page/history/history-item';
 import { ProxyItemType } from '@/screens/main/my-page/proxy/proxy-item';
 import { mdiClockOutline } from '@mdi/js';
 import { mdiAirplane } from '@mdi/js';
@@ -87,4 +88,21 @@ export const ProxyItems: ProxyItemType[] = [
       '국산참기름 저온압착 참기름 [ 농부플러스 ]',
     ],
   },
-]
+];
+
+export const HistoryItems: HistoryItemType[] = [
+  {
+    img: 'https://i.namu.wiki/i/dTxWry1hO7uw43fr05d2krIZhQH_-fAoqSpBqkQHdDoV-baWRZKj9hf4b-A0fhynBv7fGT6lr5Fm2y2uFzICuQ.webp',
+    date: '2023.05.03',
+    name: '닌텐도 스위치, 본체 네온(HAD-S-KABAH-KOR)',
+    price: '362,500원',
+    disabled: true,
+  },
+  {
+    img: 'https://thumbnail8.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/8490946390630062-860cc30c-bf13-4328-ab25-52d81b215aa2.jpg',
+    date: '2023.05.01',
+    name: '탐사수 무라벨, 500ml, 60개입',
+    price: '12,690원',
+    disabled: false,
+  }
+];

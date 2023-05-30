@@ -1,0 +1,60 @@
+.container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.title {
+  width: 100%;
+  text-indent: 10px;
+  font-size: 20px;
+  height: 50px; 
+  line-height: 50px;
+  background-color: var(--main-color);
+  color: white;
+}
+
+.imageBox {
+  margin: 0 auto;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  overflow-y: hidden;
+}
+
+.imageBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  
+}
+
+.box h1 {
+  text-align: center;
+  font-size: 20px;
+  height: 30px;
+  line-height: 30px;
+  color: var(--main-color);
+}
+
+.box h2 {
+  text-align: center;
+  font-size: 16px;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgba(0,0,0, .25);
+}
