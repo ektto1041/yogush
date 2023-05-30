@@ -8,7 +8,7 @@ import IntervalModal from '@/components/interval_modal';
 export async function getServerSideProps() { return { props: {}} }
 export default function History() {
   const [isCardModal, setCardModal] = useState<boolean>(false);
-  const [isIntervalModal, setIntervalModal] = useState<boolean>(true);
+  const [isIntervalModal, setIntervalModal] = useState<boolean>(false);
 
   const finishInterval = () => {
     setIntervalModal(false);
@@ -18,7 +18,7 @@ export default function History() {
   return (
     <div className={styles.container} >
       <Header />
-      <Content setCardModal={setCardModal} />
+      <Content setCardModal={setCardModal} setIntervalModal={setIntervalModal} />
       {isCardModal && (<CardModal />)}
       {isIntervalModal && (<IntervalModal finishInterval={finishInterval} />)}
     </div>

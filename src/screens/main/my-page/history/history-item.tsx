@@ -14,11 +14,13 @@ export type HistoryItemType = {
 
 type HistoryItemProps = {
   setCardModal: Dispatch<SetStateAction<boolean>>;
+  setIntervalModal: Dispatch<SetStateAction<boolean>>;
   item: HistoryItemType;
 };
 
 export default function HistoryItem({
   setCardModal,
+  setIntervalModal,
   item
 }: HistoryItemProps) {
   const {img, date, name, price, disabled} = item;
@@ -45,7 +47,7 @@ export default function HistoryItem({
         </div>
         <div className={styles.buttonBox} >
           <button>리뷰쓰기</button>
-          <button className={disabled ? styles.disabled : ''}>정기구매</button>
+          <button className={disabled ? styles.disabled : ''} onClick={() => setIntervalModal(true)}>정기구매</button>
           <button onClick={() => {setCardModal(true)}}>재구매</button>
         </div>
       </div>
